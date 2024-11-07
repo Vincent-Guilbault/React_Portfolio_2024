@@ -1,4 +1,4 @@
-import profilePic from "../assets/Vincent_pfp.jpg";
+import profilePic from "../assets/Vincent_pfp_1080x1080.png";
 
 const Hero = () => {
   return (
