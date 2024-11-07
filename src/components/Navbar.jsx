@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="flex flex-shrink-0 items-center">
         <img src={Logo} alt="Logo" className="h-12 w-12" />
       </div>
-      <div className="m-8 flex items-center justify-center gap-4 text-2xl">
+      <div className="sm:m-8 flex items-center justify-center gap-4 text-2xl">
         <a href="https://www.linkedin.com/in/vincentguilbault/" target="_blank">
           <FaLinkedin />
         </a>

@@ -15,18 +15,17 @@ const Hero = () => {
             <p className="my-2 max-w-xl py-6 font-light tracking-tighter">
               Possèdant de bonnes connaissances en HTML, CSS, JavaScript, et
               bien plus, je suis le maillon fort qui transforme les concepts en
-              réalités digitales dynamiques. Curieux et proactif, je
-              m&#39;adapte aux dernières tendances pour mener vos projets vers
-              le succès!
+              réalités digitales dynamiques. Curieux et proactif, je m’adapte
+              aux dernières tendances pour mener vos projets vers le succès!
             </p>
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
-          <div className="flex float-right">
+          <div className="flex items-center justify-center lg:float-right">
             <img
               src={profilePic}
               alt="Vincent Guilbault Profile Picture"
-              className="max-h-96 rounded-md"
+              className="max-h-96 rounded-2xl"
             />
           </div>
         </div>
