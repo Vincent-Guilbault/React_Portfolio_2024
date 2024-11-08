@@ -1,4 +1,5 @@
 import profilePic from "../assets/Vincent_pfp_1080x1080.png";
+import { ABOUT_TEXT } from "../constants";
 
 const About = () => {
   return (
@@ -20,12 +21,7 @@ const About = () => {
         <div className="w-full lg:w-1/2">
           <div className="flex justify-center lg:justify-start">
             <p className="max-w-xl py-6 my-2 font-light tracking-tighter">
-              Bonjour, je m’appelle Vincent Guilbault et je suis diplômé en
-              Techniques d’intégration multimédia au Cégep de Saint-Jérôme! Je
-              me spécialise dans le développement Web et j’ai pour objectif de
-              devenir développeur full-stack dans le futur! J’ai donc hâte
-              d’avoir la chance d’enrichir mes compétences ainsi que mes
-              connaissances!
+              {ABOUT_TEXT}
             </p>
           </div>
         </div>

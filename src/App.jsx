@@ -1,4 +1,5 @@
 import About from "./components/About";
+import Experiences from "./components/Experiences";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Technologies from "./components/Technologies";
@@ -15,6 +16,7 @@ function App() {
         <Hero />
         <About />
         <Technologies />
+        <Experiences />
       </div>
     </div>
   );

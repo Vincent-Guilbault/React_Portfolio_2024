@@ -1,4 +1,5 @@
 import profilePic from "../assets/Vincent_pfp_1080x1080.png";
+import { HERO_CONTENT } from "../constants";
 
 const Hero = () => {
   return (
@@ -10,13 +11,10 @@ const Hero = () => {
               Vincent Guilbault
             </h1>
             <span className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-transparent text-4xl tracking-tight">
-              Full-Stack Developer
+              Développeur Web
             </span>
             <p className="my-2 max-w-xl py-6 font-light tracking-tighter">
-              Possèdant de bonnes connaissances en HTML, CSS, JavaScript, et
-              bien plus, je suis le maillon fort qui transforme les concepts en
-              réalités digitales dynamiques. Curieux et proactif, je m’adapte
-              aux dernières tendances pour mener vos projets vers le succès!
+              {HERO_CONTENT}
             </p>
           </div>
         </div>
