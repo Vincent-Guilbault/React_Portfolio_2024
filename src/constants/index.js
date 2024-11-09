@@ -37,7 +37,7 @@ export const PROJECTS = [
     image: project3,
     category: "Projet Personnel",
     description:
-      "Un site web de portfolio personnel présentant des projets, des compétences et des informations de contact.",
+      "Un portfolio personnel developpé avec React et Tailwind, présentant mes projets, mes compétences et des informations afin de me contacter.",
     technologies: ["HTML", "CSS", "React", "Tailwind", "Framer Motion"],
     liveDemo: "https://vincentguilbault.com/",
     sourceCode: "https://github.com/Vincent-Guilbault/React_Portfolio_2024",
@@ -67,7 +67,7 @@ export const PROJECTS = [
     image: project1,
     category: "Projet Scolaire",
     description:
-      "Un jeu de survie de vampire où les joueurs doivent naviguer dans un monde sombre et dangereux rempli de créatures mortes-vivantes.",
+      "Un jeu de survie en 3D, où les joueurs doivent naviguer dans un monde sombre et dangereux rempli de créatures mortes-vivantes.",
     technologies: ["Unity", "C#", "Blender"],
     liveDemo: "",
     sourceCode: "",
