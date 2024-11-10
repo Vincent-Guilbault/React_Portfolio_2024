@@ -55,7 +55,7 @@ export const PROJECTS = [
   {
     title: "Harmonize",
     image: project1,
-    category: "Projet Synthèse Web 5",
+    category: "Projet Scolaire",
     description:
       "Une application de gestion musicale entièrement fonctionnelle permettant aux utilisateurs d'écouter leurs chansons préférées, ainsi que de créer, modifier et gérer leurs playlists.",
     technologies: ["HTML", "JavaScript", "React", "Firebase"],
