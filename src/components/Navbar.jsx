@@ -1,6 +1,5 @@
 import Logo from "../assets/VG_Logo_white.svg";
-import { FaLinkedin } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Navbar = () => {
   return (
@@ -9,11 +8,23 @@ const Navbar = () => {
         <img src={Logo} alt="Logo" className="h-12 w-12" />
       </div>
       <div className="sm:m-8 flex items-center justify-center gap-4 text-2xl">
-        <a href="https://www.linkedin.com/in/vincentguilbault/" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/vincentguilbault/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group relative text-white"
+        >
           <FaLinkedin />
+          <span className="absolute inset-0 rounded-full bg-purple-100 opacity-0 blur-lg transition-opacity duration-300 group-hover:opacity-50"></span>
         </a>
-        <a href="https://github.com/Vincent-Guilbault" target="_blank">
+        <a
+          href="https://github.com/Vincent-Guilbault"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group relative text-white"
+        >
           <FaGithub />
+          <span className="absolute inset-0 rounded-full bg-purple-100 opacity-0 blur-lg transition-opacity duration-300 group-hover:opacity-50"></span>
         </a>
       </div>
     </nav>

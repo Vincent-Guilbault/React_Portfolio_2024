@@ -40,16 +40,22 @@ const Hero = () => {
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
-          <div className="flex items-center justify-center lg:float-right">
-            <motion.img
-              initial={{ x: 100, opacity: 0 }}
-              animate={{ x: 0, opacity: 1 }}
-              transition={{ duration: 1, delay: 1.2 }}
-              src={profilePic}
-              alt="Vincent Guilbault Profile Picture"
-              className="max-h-96 rounded-2xl"
-            />
-          </div>
+          <motion.div
+            initial={{ x: 100, opacity: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            transition={{ duration: 1, delay: 1.2 }}
+            className="flex items-center justify-center relative lg:float-right max-h-96 rounded-2xl overflow-hidden"
+          >
+            <div className="relative max-w-fit rounded-2xl overflow-hidden">
+              <img
+                src={profilePic}
+                alt="Vincent Guilbault Profile Picture"
+                className="max-h-96 rounded-2xl"
+              />
+              {/* Overlay Gradient */}
+              <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-90"></div>
+            </div>
+          </motion.div>
         </div>
       </div>
     </div>

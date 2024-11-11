@@ -1,4 +1,4 @@
-import profilePic from "../assets/Vincent_pfp_1080x1080.png";
+import profilePic from "../assets/Vincent_pfp3_1080x1080.png";
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
 
@@ -15,14 +15,16 @@ const About = () => {
           initial={{ opacity: 0, x: -100 }}
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
-          className="w-full lg:w-1/2 lg:p-8"
+          className="w-full lg:w-1/2 lg:p-8 flex justify-center"
         >
-          <div className="flex items-center justify-center">
+          <div className="relative max-w-fit rounded-2xl overflow-hidden">
             <img
               src={profilePic}
               alt="Vincent Guilbault Profile Picture"
               className="max-h-96 rounded-2xl"
             />
+            {/* Overlay Gradient */}
+            <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-90"></div>
           </div>
         </motion.div>
         <motion.div

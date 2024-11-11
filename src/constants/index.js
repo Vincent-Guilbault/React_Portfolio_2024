@@ -1,6 +1,6 @@
-import project1 from "../assets/Vincent_pfp_1080x1080.png";
-import project2 from "../assets/Vincent_pfp_1080x1080.png";
-import project3 from "../assets/Vincent_pfp_1080x1080.png";
+import projectReactPortfolio from "../assets/ReactPortfolio_Thumbnail_Large.png";
+import projectHarmonize from "../assets/Harmonize_Thumbnail_Large.png";
+import projectMealPlanner from "../assets/MealPlanner_Thumbnail_Large.png";
 
 export const HERO_CONTENT = `Possèdant de bonnes connaissances en HTML, CSS, JavaScript, et
               bien plus, je suis un maillon fort qui transforme les concepts en
@@ -34,7 +34,7 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "React Portfolio",
-    image: project3,
+    image: projectReactPortfolio,
     category: "Projet Personnel",
     description:
       "Un portfolio personnel developpé avec React et Tailwind, présentant mes projets, mes compétences et des informations afin de me contacter.",
@@ -44,7 +44,7 @@ export const PROJECTS = [
   },
   {
     title: "Meal Planner",
-    image: project2,
+    image: projectMealPlanner,
     category: "Projet Personnel",
     description:
       "Une application de planification de repas permettant aux utilisateurs de créer des plans de repas personnalisés en fonction de leurs préférences.",
@@ -54,7 +54,7 @@ export const PROJECTS = [
   },
   {
     title: "Harmonize",
-    image: project1,
+    image: projectHarmonize,
     category: "Projet Scolaire",
     description:
       "Une application de gestion musicale entièrement fonctionnelle permettant aux utilisateurs d'écouter leurs chansons préférées, ainsi que de créer, modifier et gérer leurs playlists.",
@@ -64,7 +64,7 @@ export const PROJECTS = [
   },
   {
     title: "Tomb Survivor",
-    image: project1,
+    video: "https://player.vimeo.com/video/1028216495",
     category: "Projet Scolaire",
     description:
       "Un jeu de survie en 3D, où les joueurs doivent naviguer dans un monde sombre et dangereux rempli de créatures mortes-vivantes.",

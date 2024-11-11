@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Technologies from "./components/Technologies";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Experiences />
         <Projects />
         <Contact />
+        <ScrollToTop />
       </div>
     </div>
   );
