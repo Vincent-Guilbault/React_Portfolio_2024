@@ -2,7 +2,7 @@
 
 ## 🌐 Live Demo
 
-Check out the live version of my portfolio here: [vincentguilbault.com](https://vincentguilbault.com)
+Check out the live version of my portfolio here: [vincentguilbault.com](https://portfolio.vincentguilbault.com)
 
 ## 📖 About
 
