@@ -39,7 +39,7 @@ export const PROJECTS = [
     description:
       "Un portfolio personnel developpé avec React et Tailwind, présentant mes projets, mes compétences et des informations afin de me contacter.",
     technologies: ["HTML", "CSS", "React", "Tailwind", "Framer Motion"],
-    liveDemo: "https://vincentguilbault.com/",
+    liveDemo: "",
     sourceCode: "https://github.com/Vincent-Guilbault/React_Portfolio_2024",
   },
   {
