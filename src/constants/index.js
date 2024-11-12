@@ -76,7 +76,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Terrebonne, Quebec, Canada",
+  address: "Terrebonne, Québec, Canada",
   phoneNo: "+1 (514) 891-1353",
   email: "guilbault190@gmail.com",
 };
