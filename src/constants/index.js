@@ -69,7 +69,8 @@ export const PROJECTS = [
     description:
       "Un jeu de survie en 3D, où les joueurs doivent naviguer dans un monde sombre et dangereux rempli de créatures mortes-vivantes.",
     technologies: ["Unity", "C#", "Blender"],
-    liveDemo: "",
+    liveDemo:
+      "https://drive.google.com/file/d/17AQxvMKtU1jSTyyMtLvMnCgIwPZ613PQ/view",
     sourceCode: "",
   },
 ];
