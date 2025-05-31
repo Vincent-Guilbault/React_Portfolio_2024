@@ -38,7 +38,7 @@ const Contact = () => {
       </div>
       <div className="text-center mt-8">
         <a
-          href="/Vincent_Guilbault_CV_2024.pdf" // Link to the PDF in the public folder
+          href="/Vincent_Guilbault_CV_2025_FrontEnd.pdf" // Link to the PDF in the public folder
           download="Vincent_Guilbault_CV.pdf" // Specify download name
           className="inline-block px-6 py-3 mt-4 text-white bg-purple-500 rounded-lg hover:bg-purple-700 transition-colors"
         >

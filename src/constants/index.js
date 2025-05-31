@@ -8,26 +8,27 @@ export const HERO_CONTENT = `Possèdant de bonnes connaissances en HTML, CSS, Ja
               aux dernières tendances pour mener vos projets vers le succès!`;
 
 export const ABOUT_TEXT = `Bonjour, je m'appelle Vincent Guilbault et je suis diplômé en
-              Techniques d'intégration multimédia au Cégep de Saint-Jérôme! Je
-              me spécialise dans le développement Web et j'ai pour objectif de
-              devenir développeur full-stack dans le futur! J'ai donc hâte
-              d'avoir la chance d'enrichir mes compétences ainsi que mes
-              connaissances à vos côtés!`;
+              Techniques d'intégration multimédia au Cégep de Saint-Jérôme! Spécialisé en 
+              développement front-end, je suis passionné par la création d’interfaces web 
+              modernes, accessibles et bien pensées.
+              J’aime concevoir des expériences utilisateurs fluides et esthétiques à l’aide 
+              de technologies comme React, Tailwind CSS et JavaScript. J'ai donc hâte d'avoir 
+              la chance d'enrichir mes compétences ainsi que mes connaissances à vos côtés!`;
 
 export const EXPERIENCES = [
+  {
+    year: "2018 - 2024 | 2025 - Présent",
+    role: "Commis fruits et légumes",
+    company: "Super C",
+    description: `Après plusieurs années comme commis en fruits et légumes, j'ai développé un fort esprit d'équipe et des compétences en service clientèle, en veillant constamment à offrir une expérience client de qualité et à répondre aux besoins des clients.`,
+    skills: ["Travail d'équipe", "Service client", "Satisfaction client"],
+  },
   {
     year: "2024",
     role: "Stage, Développeur Back-end",
     company: "Codems",
     description: `En tant que stagiaire développeur web back-end, j'ai conçu et développé des applications similaires aux 'to-do apps,' en utilisant Laravel, Livewire, PHP, Docker et Tailwind. Ce stage m'a permis de renforcer mes compétences techniques en environnement back-end tout en maîtrisant l'intégration d'outils modernes pour le développement et le déploiement d'applications.`,
     skills: ["Laravel", "Livewire", "Docker", "PHP", "Tailwind"],
-  },
-  {
-    year: "2018 - 2023",
-    role: "Commis fruits et légumes",
-    company: "Super C",
-    description: `Durant cinq années comme commis en fruits et légumes, j'ai développé un fort esprit d'équipe et des compétences en service clientèle, en veillant constamment à offrir une expérience client de qualité et à répondre aux besoins des clients.`,
-    skills: ["Travail d'équipe", "Service client", "Satisfaction client"],
   },
 ];
 
