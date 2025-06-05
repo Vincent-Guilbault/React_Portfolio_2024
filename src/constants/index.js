@@ -20,7 +20,7 @@ export const EXPERIENCES = [
     year: "2018 - 2024 | 2025 - Présent",
     role: "Commis fruits et légumes",
     company: "Super C",
-    description: `Après plusieurs années comme commis en fruits et légumes, j'ai développé un fort esprit d'équipe et des compétences en service clientèle, en veillant constamment à offrir une expérience client de qualité et à répondre aux besoins des clients.`,
+    description: `En tant que commis en fruits et légumes pendant plusieurs années, j’ai acquis une solide expérience en service à la clientèle, en m’assurant de maintenir un haut niveau de satisfaction et d’adapter mon approche selon les besoins des consommateurs.`,
     skills: ["Travail d'équipe", "Service client", "Satisfaction client"],
   },
   {
